@@ -7,6 +7,9 @@ import java.util.PriorityQueue;
 public class MergeNSortedArrays {
     //Node class can also implement comparable interface for comparing the values of the nodes.
    private class Node {
+       //Number the array Number
+       //Index refers to the index in the the sub array ie array[number][index]
+       // Value refers to the value.
        public  int number, index, value;
        public Node(int number, int index, int value) {
            this.number = number;
